@@ -1,0 +1,61 @@
+{
+  "name": "egg-oracle",
+  "version": "1.0.0",
+  "description": "Oracle database plugin for egg",
+  "eggPlugin": {
+    "name": "oracle"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "oracle",
+    "database"
+  ],
+  "dependencies": {
+    "oracledb": "^1.13.0"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "egg": "^1.0.0",
+    "egg-bin": "^3.2.1",
+    "egg-ci": "^1.6.0",
+    "egg-mock": "^3.2.0",
+    "eslint": "^3.19.0",
+    "eslint-config-egg": "^3.2.0",
+    "supertest": "^3.0.0",
+    "webstorm-disable-index": "^1.1.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "ci": {
+    "version": "6, 7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-oracle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-oracle#readme",
+  "author": "liangyuchao",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+logs/
+npm-debug.log
+node_modules/
+coverage/
+.idea/
+.vscode/
+run/
+.DS_Store
+*.swp
+
