@@ -45,6 +45,11 @@ exports.oracle = {
 ```js
 // {app_root}/config/config.default.js
 exports.oracle = {
+  client: {
+    user: 'user',
+    password: 'password',
+    connectString: 'localhost/orcl',
+  },
 };
 ```
 

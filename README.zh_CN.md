@@ -61,6 +61,17 @@ exports.oracle = {
 
 ## 详细配置
 
+```js
+// {app_root}/config/config.default.js
+exports.oracle = {
+  client: {
+    user: 'user',
+    password: 'password',
+    connectString: 'localhost/orcl',
+  },
+};
+```
+
 请到 [config/config.default.js](config/config.default.js) 查看详细配置项说明。
 
 ## 单元测试
