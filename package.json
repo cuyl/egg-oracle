@@ -1,6 +1,6 @@
 {
   "name": "egg-oracle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Oracle database plugin for egg",
   "eggPlugin": {
     "name": "oracle"
@@ -13,16 +13,16 @@
     "database"
   ],
   "dependencies": {
-    "oracledb": "^1.13.0"
+    "oracledb": "^1.13.1"
   },
   "devDependencies": {
     "autod": "^2.8.0",
-    "egg": "^1.0.0",
-    "egg-bin": "^3.2.1",
+    "egg": "^1.3.0",
+    "egg-bin": "^3.3.2",
     "egg-ci": "^1.6.0",
-    "egg-mock": "^3.2.0",
+    "egg-mock": "^3.6.1",
     "eslint": "^3.19.0",
-    "eslint-config-egg": "^3.2.0",
+    "eslint-config-egg": "^4.1.0",
     "supertest": "^3.0.0",
     "webstorm-disable-index": "^1.1.2"
   },
