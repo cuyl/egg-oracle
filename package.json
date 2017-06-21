@@ -50,12 +50,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-oracle.git"
+    "url": "git+https://github.com/cuyl/egg-oracle.git"
   },
   "bugs": {
-    "url": "https://github.com/eggjs/egg/issues"
+    "url": "https://github.com/cuyl/egg-oracle/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-oracle#readme",
+  "homepage": "https://github.com/cuyl/egg-oracle#readme",
   "author": "liangyuchao",
   "license": "MIT"
 }
