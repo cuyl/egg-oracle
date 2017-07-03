@@ -34,6 +34,8 @@ $ npm i egg-oracle --save
 
 ## Usage
 
+* open plugin 
+
 ```js
 // {app_root}/config/plugin.js
 exports.oracle = {
@@ -41,7 +43,31 @@ exports.oracle = {
   package: 'egg-oracle',
 };
 ```
+* oracle attach in app
 
+```js
+// {app_root}/app/service/my_service.js
+'use strict';
+
+module.exports = app => {
+  class MyService extends app.Service {
+    // example for getConnection
+    async foo() {
+      const connection = await app.oracle.getConnection();
+      const result = await connnection.execute('SELECT sysdate AS "date" FROM dual');
+      connection.close();
+      console.log(sesult.rows[0].date);
+    }
+    // it work
+    async foo2() {
+      const result = await app.oracle.execute('SELECT sysdate AS "date" FROM dual');
+      connection.close();
+      console.log(sesult.rows[0].date);
+    }
+  }
+  return MyService;
+}
+```
 ## Configuration
 
 ```js
