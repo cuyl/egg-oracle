@@ -1,6 +1,6 @@
 {
   "name": "egg-oracle",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Oracle database plugin for egg",
   "eggPlugin": {
     "name": "oracle"
