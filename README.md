@@ -48,25 +48,25 @@ exports.oracle = {
 ```js
 // {app_root}/app/service/my_service.js
 'use strict';
+const Service = require('egg').Service;
 
-module.exports = app => {
-  class MyService extends app.Service {
-    // example for getConnection
-    async foo() {
-      const connection = await app.oracle.getConnection();
-      const result = await connnection.execute('SELECT sysdate AS "date" FROM dual');
-      connection.close();
-      console.log(result.rows[0].date);
-    }
-    // it work
-    async foo2() {
-      const result = await app.oracle.execute('SELECT sysdate AS "date" FROM dual');
-      connection.close();
-      console.log(result.rows[0].date);
-    }
+class MyService extends Service {
+  // example for getConnection
+  async foo() {
+    const connection = await this.app.oracle.getConnection();
+    const result = await connnection.execute('SELECT sysdate AS "date" FROM dual');
+    connection.close();
+    console.log(result.rows[0].date);
   }
-  return MyService;
+  // it work
+  async foo2() {
+    const result = await this.app.oracle.execute('SELECT sysdate AS "date" FROM dual');
+    connection.close();
+    console.log(result.rows[0].date);
+  }
 }
+module.exports = MyService;
+
 ```
 ## Configuration
 
