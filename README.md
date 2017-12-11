@@ -34,7 +34,7 @@ $ npm i egg-oracle --save
 
 ## Usage
 
-* open plugin
+* enable plugin
 
 ```js
 // {app_root}/config/plugin.js
