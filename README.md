@@ -25,7 +25,7 @@
 > Oracle's standard client-server network compatibility applies: Oracle Client 12.2 can connect to Oracle Database 11.2 or greater. Oracle Client 12.1 can connect to Oracle Database 10.2 or greater. Oracle Client 11.2 can connect to Oracle Database 9.2 or greater.
 > - Set `OCI_LIB_DIR` and `OCI_INC_DIR` during installation if the Oracle libraries and headers are in  non-default location
 >
-> See [INSTALL](https://github.com/oracle/node-oracledb/tree/master/INSTALL.md) for details.
+> See [INSTALL](https://github.com/oracle/node-oracledb/blob/d93d86ce15b5bd2a02c0c276a23c2997e9beedea/INSTALL.md) for details.
 
 
 ```bash
