@@ -16,16 +16,7 @@
 
 ## Install
 
-> Prerequisites:
->
-> - [Python 2.7](https://www.python.org/downloads/)
-> - C Compiler with support for C++ 11 (Xcode, gcc, Visual Studio or similar)
-> - Oracle 11.2, 12.1 or 12.2 client libraries.  Use the small, free [Oracle Instant Client](http://www.oracle.com/technetwork/database/features/instant-client/index-100365.html) "basic" and "SDK" packages if your database is remote.  Or use the libraries and headers from a locally installed database such as the free [Oracle XE](http://www.oracle.com/technetwork/database/database-technologies/express-edition/overview/index.html) release.
->
-> Oracle's standard client-server network compatibility applies: Oracle Client 12.2 can connect to Oracle Database 11.2 or greater. Oracle Client 12.1 can connect to Oracle Database 10.2 or greater. Oracle Client 11.2 can connect to Oracle Database 9.2 or greater.
-> - Set `OCI_LIB_DIR` and `OCI_INC_DIR` during installation if the Oracle libraries and headers are in  non-default location
->
-> See [INSTALL](https://github.com/oracle/node-oracledb/blob/d93d86ce15b5bd2a02c0c276a23c2997e9beedea/INSTALL.md) for details.
+See [Quick Start Node-oracledb Installation](https://github.com/oracle/node-oracledb/blob/master/INSTALL.md#quickstart).
 
 
 ```bash
@@ -68,6 +59,11 @@ class MyService extends Service {
 module.exports = MyService;
 
 ```
+
+## <a name="doc"></a> Documentation
+
+See [Documentation for the Oracle Database Node.js Add-on](https://github.com/oracle/node-oracledb/blob/master/doc/api.md).
+
 ## Configuration
 
 ```js
