@@ -34,7 +34,7 @@ exports.oracle = {
   package: 'egg-oracle',
 };
 ```
-* oracle attach in app
+* oracle connection pool attach in app
 
 ```js
 // {app_root}/app/service/my_service.js
@@ -49,7 +49,7 @@ class MyService extends Service {
     connection.close();
     console.log(result.rows[0].date);
   }
-  // it work
+  // deprecated!!
   async foo2() {
     const result = await this.app.oracle.execute('SELECT sysdate AS "date" FROM dual');
     connection.close();

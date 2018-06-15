@@ -1,6 +1,6 @@
 {
   "name": "egg-oracle",
-  "version": "3.0.0-rc.0",
+  "version": "3.0.0-rc.1",
   "description": "Oracle database plugin for egg",
   "eggPlugin": {
     "name": "oracle"
@@ -12,8 +12,9 @@
     "oracledb",
     "database"
   ],
+  "types": "index.d.ts",
   "dependencies": {
-    "oracledb": "^2.2.0"
+    "oracledb": "^2.3.0"
   },
   "optionalDependencies": {
     "@types/oracledb": "^1.11.34"
