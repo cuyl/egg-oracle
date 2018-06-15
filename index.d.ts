@@ -21,21 +21,21 @@ interface OracleConnection {
   close(): IPromise<void>;
 }
 
-interface ClinetConfig {
+interface ClientConfig {
   user: string;
   password: string;
   connectString: string;
 }
 
 interface SingleOracleConfig {
-  client: ClinetConfig;
+  client: ClientConfig;
   app: Boolean;
   agent: Boolean;
 }
 
 interface MultiOracleConfig {
   clients: {
-    [key:string]: ClinetConfig;
+    [key:string]: ClientConfig;
   };
   app: Boolean;
   agent: Boolean;
