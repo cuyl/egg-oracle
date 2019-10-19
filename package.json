@@ -1,6 +1,6 @@
 {
   "name": "egg-oracle",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Oracle database plugin for egg",
   "eggPlugin": {
     "name": "oracle"
@@ -14,10 +14,10 @@
   ],
   "types": "index.d.ts",
   "dependencies": {
-    "oracledb": "^3.0.0"
+    "oracledb": "^4.0.1"
   },
   "optionalDependencies": {
-    "@types/oracledb": "^1.11.34"
+    "@types/oracledb": "^4.0.4"
   },
   "peerDependencies": {
     "egg": ">=2.7.0"
@@ -34,7 +34,7 @@
     "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=8.16"
   },
   "scripts": {
     "test": "npm run lint -- --fix && npm run test-local",

@@ -49,12 +49,6 @@ class MyService extends Service {
     connection.close();
     console.log(result.rows[0].date);
   }
-  // deprecated!!
-  async foo2() {
-    const result = await this.app.oracle.execute('SELECT sysdate AS "date" FROM dual');
-    connection.close();
-    console.log(result.rows[0].date);
-  }
 }
 module.exports = MyService;
 
