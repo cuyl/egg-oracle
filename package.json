@@ -29,7 +29,7 @@
     "egg-ci": "^1.8.0",
     "egg-mock": "^3.17.0",
     "eslint": "^6.7.0",
-    "eslint-config-egg": "^7.0.0",
+    "eslint-config-egg": "^8.0.0",
     "supertest": "^4.0.2",
     "webstorm-disable-index": "^1.2.0"
   },
