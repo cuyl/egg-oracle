@@ -14,7 +14,7 @@
   ],
   "types": "index.d.ts",
   "dependencies": {
-    "oracledb": "^4.0.1"
+    "oracledb": "^5.0.0"
   },
   "optionalDependencies": {
     "@types/oracledb": "^4.0.4"
