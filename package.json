@@ -27,7 +27,7 @@
     "egg": "^3.0.0",
     "egg-bin": "^5.1.0",
     "egg-ci": "^2.1.0",
-    "egg-mock": "^4.0.0",
+    "egg-mock": "^5.0.1",
     "eslint": "^8.0.0",
     "eslint-config-egg": "^12.0.0",
     "supertest": "^6.0.0",
