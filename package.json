@@ -17,7 +17,7 @@
     "oracledb": "^6.0.0"
   },
   "optionalDependencies": {
-    "@types/oracledb": "^5.0.0"
+    "@types/oracledb": "^6.0.0"
   },
   "peerDependencies": {
     "egg": ">=2.7.0"
